@@ -1,42 +1,39 @@
 #include <stdio.h>
 
 int main(){
- printf("Cartas Super Trunfo!\n");
-
-char Estado [50] = 'A';
-char Código[50] = 'A', Carta;
+int Popolação, Número, Pontos, Turisticos;
+float PIB, Área;
+char Estado;
+char Código, Carta;
 char Nome, Cidade;
-int População;
-float Área;
-float PIB;
-int Número, Pontos, Turisticos;
 
-printf("Digite seu Estado:\n");
-scanf("%s", &Estado);
+printf("Digite o Número da carta: \n");
+scanf("%s", &Carta);
 
-printf("Digite O Código da sua Carta:\n");
+printf("Digete a letra do Estado: \n");
+scanf("%s",&Estado);
+
+printf("Digite o Código da Carta: \n");
 scanf("%s", &Código);
 
-printf("Digite o nome da cidade:\n");
-scanf("%s", &Nome);
+printf("Digite o nome da cidade: \n");
+scanf("%s", &Nome,&Cidade);
 
-printf("Digite à População:\n");
-scanf("%d", &População);
+printf("Digite a população:");
+scanf("%d", &Popolação);
 
-printf("Digite à Área:\n");
+printf("Digite a Área:");
 scanf("%f", &Área);
 
-printf("Digite o PIB:\n");
+printf("Digite o PIB:");
 scanf("%f", &PIB);
 
-printf("Digite quantos pontos turisticos:\n");
-scanf("%d", &Número);
 
 
-printf("Carta: %s - Estado: %s \n", Carta, Estado);
-printf("Código: %s - Nome: %s \n", Código, Nome);
-printf("População: %d - Área: %f \n",População, Área);
-printf("PIb: %f - Número %s \n", PIB, Número);
+
+
+
+
 
 return 0;
 

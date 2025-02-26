@@ -22,12 +22,16 @@ scanf("%s", &Nome,&Cidade);
 printf("Digite a população:");
 scanf("%d", &Popolação);
 
-printf("Digite a Área:");
+printf("Digite a Área:\n");
 scanf("%f", &Área);
 
-printf("Digite o PIB:");
+printf("Digite o PIB: \n");
 scanf("%f", &PIB);
 
+printf("Digite o Número de Pontos Turisticos: \n");
+scanf("%d",&Número);
+
+    
 
 
 
